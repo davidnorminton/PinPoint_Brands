@@ -8,15 +8,15 @@
       	module="PinPoint_Brands" 
       	parent="Magento_Backend::content" 
       	sortOrder="50" 
-      	resource="PinPoint_Brands::greet"
+      	resource="PinPoint_Brands::view"
       />
       <add 
       	id="PinPoint_Brands::brands_addbrand" 
-      	title="My Brands" translate="title" 
+      	title="View Brands" translate="title" 
       	module="PinPoint_Brands" 
       	parent="PinPoint_Brands::brands" 
       	sortOrder="10" 
-      	action="PinPoint_Brands/addbrands" 
-      	resource="PinPoint_Brands::greetings"/>
+      	action="pinpointbrands/brands/" 
+      	resource="PinPoint_Brands::view"/>
     </menu>
 </config>

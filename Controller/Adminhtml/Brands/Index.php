@@ -1,5 +1,5 @@
 <?php
-namespace PinPoint\Brands\Controller\Adminhtml\AddBrands;
+namespace PinPoint\Brands\Controller\Adminhtml\Brands;
 
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
@@ -12,7 +12,7 @@ use Magento\Framework\View\Result\PageFactory;
  */
 class Index extends Action implements HttpGetActionInterface
 {
-    const MENU_ID = 'PinPoint_Brands::addbrands';
+    const MENU_ID = 'PinPoint_Brands::brands_view';
 
     /**
      * @var PageFactory

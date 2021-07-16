@@ -19,3 +19,8 @@ Each brand should allow the following to be set by an admin user, alongside any 
 - Enabled / Disabled
 
 Additionally, the client has requested an export list of brands previously that we have supplied.  To make it easier for the team to output the required information, please create a CLI command that can be used to export the brands into a CSV file available for the team to download.
+
+## Run Tests
+```console
+$ vendor/phpunit/phpunit/phpunit -c dev/tests/unit/phpunit.xml.dist app/code/PinPoint/Brands/Test/Unit/
+```
