@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+      <add 
+      	id="PinPoint_Brands::brands" 
+      	title="PinPoint Brands" 
+      	translate="title" 
+      	module="PinPoint_Brands" 
+      	parent="Magento_Backend::content" 
+      	sortOrder="50" 
+      	resource="PinPoint_Brands::greet"
+      />
+      <add 
+      	id="PinPoint_Brands::brands_addbrand" 
+      	title="My Brands" translate="title" 
+      	module="PinPoint_Brands" 
+      	parent="PinPoint_Brands::brands" 
+      	sortOrder="10" 
+      	action="PinPoint_Brands/addbrands" 
+      	resource="PinPoint_Brands::greetings"/>
+    </menu>
+</config>
